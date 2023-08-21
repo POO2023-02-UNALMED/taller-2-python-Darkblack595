@@ -22,6 +22,7 @@ class Motor:
             self.tipo = tipo
 
 class Auto:
+    cantidadCreados = 0
     def _init_(self,modelo,precio,asientos,marca,motor,registro,cantidadCreados):
         self.modelo = modelo
         self.precio = precio
@@ -29,7 +30,6 @@ class Auto:
         self.marca = marca
         self.motor = motor
         self.registro = registro
-        self.cantidadCreados = cantidadCreados
     
     def cantidadAsientos(self):
         nasientos = 0
