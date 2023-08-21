@@ -1,4 +1,4 @@
-class asiento:
+class Asiento:
     def _init_(self,color,registro,precio):
         self.color = color
         self.registro = registro
